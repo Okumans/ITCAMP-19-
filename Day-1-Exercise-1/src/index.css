@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+  border-width: 0;
+  border-style: solid;
+  border-color: #e5e7eb;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.app {
+  width: 24rem;
+}
+
+.app > * {
+  margin-top: 0.5rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Class สำหรับกล่อง Input */
+.textField {
+  box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.397);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Class สำหรับปุ่ม */
+.button {
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
+  transition: .3s;
+}
+
+/* Class สำหรับปุ่ม Add (ตกแต่งสี) */
+.button-add {
+  background-color: rgb(7, 185, 141);
+  transition: .3s;
+}
+
+/* Class สำหรับเมื่อเอาเมาส์ชี้ปุ่ม Add */
+.button-add:hover {
+  transition: .2s;
+  background-color: rgb(10, 131, 100);
+}
+
+.button-add:active {
+  background-color: rgb(7, 185, 141);;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: end;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-width: 1px;
+}
+
+.not-found {
+  text-align: center;
+  color: rgb(134, 134, 134);
+}
+
+.box{
+  display: flex;
+  box-shadow: 0px 2px 5px rgba(128, 128, 128, 0.397);
+  padding: 8px;
+  align-items: center;
+  padding-left: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.box input[type="checkbox"] {
+  display: inline;
+  transform: scale(1.5);
+}
+
+.box h1 {
+  display: inline;
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight:540;
+}
+
+.box button{
+  background-color: rgb(219, 36, 67);
+  transition: .3s;
+  margin-left: auto;
+}
